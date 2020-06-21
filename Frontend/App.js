@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image,  StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import logo from './assets/login.png';
-import Heading from './Heading';
+
+import Heading from './Heading'; 
 
 export default function App() {
   return (
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
+    alignItems: 'center',  
 	justifyContent: 'center',
 	margin: 0,
   },

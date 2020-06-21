@@ -1,12 +1,8 @@
 import React from 'react';
 import { Image,  StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import logo from './assets/login.png';
-<<<<<<< HEAD
 import styles from './styles'
 import { Card, ListItem, Button, Icon } from 'react-native-elements'
-=======
-import Heading from './Heading';
->>>>>>> 244119819c6bcf365c2f938161028b5881ac128a
 
 const users = [
 	{
@@ -16,7 +12,6 @@ const users = [
    ]
 export default function App() {
   return (
-<<<<<<< HEAD
     <View style={styles.container}>
 
 	
@@ -71,21 +66,3 @@ export default function App() {
 }
 
 
-=======
-    <View style={{flex:1, padding:5 }}>
-		<Heading/>
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-	justifyContent: 'center',
-	margin: 0,
-  },
-  
-});
->>>>>>> 244119819c6bcf365c2f938161028b5881ac128a

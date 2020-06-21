@@ -3,7 +3,6 @@ import { Image,  StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import {Header} from 'react-native-elements';
 import home from './assets/home.png';
 
-
 class MyHeader extends Component
 {
     render() {

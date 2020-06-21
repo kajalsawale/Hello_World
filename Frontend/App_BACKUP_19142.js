@@ -1,9 +1,5 @@
 import React from 'react';
 import { Image,  StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-<<<<<<< HEAD
-
-import Heading from './Heading'; 
-=======
 import logo from './assets/login.png';
 <<<<<<< HEAD
 import styles from './styles'
@@ -11,7 +7,6 @@ import { Card, ListItem, Button, Icon } from 'react-native-elements'
 =======
 import Heading from './Heading';
 >>>>>>> 244119819c6bcf365c2f938161028b5881ac128a
->>>>>>> 45411b610cc965af1b96d187ddfb95f8f462a32d
 
 const users = [
 	{
@@ -87,7 +82,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',  
+    alignItems: 'center',
 	justifyContent: 'center',
 	margin: 0,
   },
